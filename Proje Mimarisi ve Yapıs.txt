@@ -1,0 +1,51 @@
+src
+│
+├── assets                # Projede kullanılacak görseller, ikonlar, fontlar vb.
+│   ├── images
+│   └── icons
+│
+├── components            # Genel bileşenler (Button, Navbar, Footer, etc.)
+│   ├── Button
+│   ├── Navbar
+│   ├── Footer
+│   └── Card
+│
+├── pages                 # Sayfa bileşenleri
+│   ├── Home
+│   │   ├── Home.tsx
+│   │   └── Home.styles.ts
+│   │
+│   ├── About
+│   │   ├── About.tsx
+│   │   └── About.styles.ts
+│   │
+│   ├── Contact
+│   │   ├── Contact.tsx
+│   │   └── Contact.styles.ts
+│   │
+│   ├── Categories
+│   │   ├── Categories.tsx
+│   │   └── Categories.styles.ts
+│   │
+│   └── Books
+│       ├── Books.tsx
+│       └── Books.styles.ts
+│
+├── services              # API çağrıları ve veri işlemleri
+│   ├── bookService.ts    # Kitaplarla ilgili API işlemleri
+│   └── categoryService.ts # Kategorilerle ilgili API işlemleri
+│
+├── types                 # TypeScript türleri ve arayüz tanımları
+│   ├── book.ts
+│   └── category.ts
+│
+├── utils                 # Yardımcı fonksiyonlar ve sabitler
+│   ├── constants.ts      # Projeye özel sabitler (URL'ler, mesajlar vb.)
+│   ├── helpers.ts        # Yardımcı fonksiyonlar
+│   └── validations.ts    # Form validasyonları
+│
+├── App.tsx               # Uygulama ana bileşeni
+├── index.tsx             # Uygulama giriş noktası
+├── routes.tsx            # Sayfa yönlendirme ve rotalar
+├── theme.ts              # Tema ve stil ayarları (styled-components ile)
+└── global.styles.ts      # Global stil ayarları
