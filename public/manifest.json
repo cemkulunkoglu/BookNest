@@ -1,0 +1,10 @@
+{
+  "short_name": "BookNest",
+  "name": "BookNest - Kitap İnceleme ve Öneri Uygulaması",
+  "icons": [],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#343a40",
+  "background_color": "#ffffff",
+  "description": "BookNest, kitaplar hakkında incelemeler yapabileceğiniz ve öneriler alabileceğiniz bir uygulamadır."
+}
